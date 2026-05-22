@@ -1,0 +1,5 @@
+
+# generated embedding/cache artifacts
+.emb_cache/
+*.npy
+*.faiss
