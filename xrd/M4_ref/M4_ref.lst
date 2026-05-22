@@ -1,0 +1,462 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 5
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: Mo2 - metal
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Mo         3.70250  17.23560  12.88760   3.74290   0.27720   1.09580  11.00400  61.65840   4.38750
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Mo         0.30690   1.17140   3.22930   3.42540   2.12240   0.11010   1.02220   5.96130  25.19650  93.58310
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Mo      Nat. Abund.     95.940    0.671
+
+ Space Group: P 1
+ The lattice is noncentrosymmetric primitive triclinic
+ The Laue symmetry is -1
+ The lattice point group is 1
+ Multiplicity of a general site is 1
+ The location of the origin is arbitrary in xyz
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Mo0     Mo          0.00000   0.00000   0.00000   1.000      1    1    I 0.01000                                                
+    Mo1     Mo          0.50000   0.50000   0.50000   1.000      1    1    I 0.01000                                                
+
+ Unit cell: a = 3.16762 b = 3.16762 c = 3.16762 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 31.783 Refine? False
+
+ Phase name: Mo8 C4 - ortho
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Mo         3.70250  17.23560  12.88760   3.74290   0.27720   1.09580  11.00400  61.65840   4.38750
+ C          2.31000   1.02000   1.58860   0.86500  20.84390  10.20750   0.56870  51.65120   0.21560
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Mo         0.30690   1.17140   3.22930   3.42540   2.12240   0.11010   1.02220   5.96130  25.19650  93.58310
+ C          0.04890   0.20910   0.75370   1.14200   0.35550   0.11400   1.08250   5.42810  17.88110  51.13410
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Mo      Nat. Abund.     95.940    0.671
+ C       Nat. Abund.     12.011    0.665
+
+ Space Group: P 1
+ The lattice is noncentrosymmetric primitive triclinic
+ The Laue symmetry is -1
+ The lattice point group is 1
+ Multiplicity of a general site is 1
+ The location of the origin is arbitrary in xyz
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Mo0     Mo          0.24650   0.07946   0.12255   1.000      1    1    I 0.01000                                                
+    Mo1     Mo          0.74650   0.92054   0.37745   1.000      1    1    I 0.01000                                                
+    Mo2     Mo          0.25350   0.57946   0.37745   1.000      1    1    I 0.01000                                                
+    Mo3     Mo          0.75350   0.42054   0.12255   1.000      1    1    I 0.01000                                                
+    Mo4     Mo          0.24650   0.57946   0.87745   1.000      1    1    I 0.01000                                                
+    Mo5     Mo          0.74650   0.42054   0.62255   1.000      1    1    I 0.01000                                                
+    Mo6     Mo          0.25350   0.07946   0.62255   1.000      1    1    I 0.01000                                                
+    Mo7     Mo          0.75350   0.92054   0.87745   1.000      1    1    I 0.01000                                                
+     C8      C          0.50000   0.75000   0.12298   1.000      1    1    I 0.01000                                                
+     C9      C          0.00000   0.25000   0.37702   1.000      1    1    I 0.01000                                                
+    C10      C          0.50000   0.25000   0.87702   1.000      1    1    I 0.01000                                                
+    C11      C          0.00000   0.75000   0.62298   1.000      1    1    I 0.01000                                                
+
+ Unit cell: a = 4.75411 b = 5.24148 c = 6.07648 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 151.417 Refine? False
+
+ Phase name: Mo4 C4 - cubic
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Mo         3.70250  17.23560  12.88760   3.74290   0.27720   1.09580  11.00400  61.65840   4.38750
+ C          2.31000   1.02000   1.58860   0.86500  20.84390  10.20750   0.56870  51.65120   0.21560
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Mo         0.30690   1.17140   3.22930   3.42540   2.12240   0.11010   1.02220   5.96130  25.19650  93.58310
+ C          0.04890   0.20910   0.75370   1.14200   0.35550   0.11400   1.08250   5.42810  17.88110  51.13410
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Mo      Nat. Abund.     95.940    0.671
+ C       Nat. Abund.     12.011    0.665
+
+ Space Group: P 1
+ The lattice is noncentrosymmetric primitive triclinic
+ The Laue symmetry is -1
+ The lattice point group is 1
+ Multiplicity of a general site is 1
+ The location of the origin is arbitrary in xyz
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Mo0     Mo          0.50000   0.00000   0.00000   1.000      1    1    I 0.01000                                                
+    Mo1     Mo          0.50000   0.50000   0.50000   1.000      1    1    I 0.01000                                                
+    Mo2     Mo          0.00000   0.00000   0.50000   1.000      1    1    I 0.01000                                                
+    Mo3     Mo          0.00000   0.50000   0.00000   1.000      1    1    I 0.01000                                                
+     C4      C          0.00000   0.00000   0.00000   1.000      1    1    I 0.01000                                                
+     C5      C          0.00000   0.50000   0.50000   1.000      1    1    I 0.01000                                                
+     C6      C          0.50000   0.00000   0.50000   1.000      1    1    I 0.01000                                                
+     C7      C          0.50000   0.50000   0.00000   1.000      1    1    I 0.01000                                                
+
+ Unit cell: a = 4.38313 b = 4.38313 c = 4.38313 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 84.208 Refine? False
+
+ Phase name: Mo2 C1 -hexag
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Mo         3.70250  17.23560  12.88760   3.74290   0.27720   1.09580  11.00400  61.65840   4.38750
+ C          2.31000   1.02000   1.58860   0.86500  20.84390  10.20750   0.56870  51.65120   0.21560
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Mo         0.30690   1.17140   3.22930   3.42540   2.12240   0.11010   1.02220   5.96130  25.19650  93.58310
+ C          0.04890   0.20910   0.75370   1.14200   0.35550   0.11400   1.08250   5.42810  17.88110  51.13410
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Mo      Nat. Abund.     95.940    0.671
+ C       Nat. Abund.     12.011    0.665
+
+ Space Group: P 1
+ The lattice is noncentrosymmetric primitive triclinic
+ The Laue symmetry is -1
+ The lattice point group is 1
+ Multiplicity of a general site is 1
+ The location of the origin is arbitrary in xyz
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Mo0     Mo          0.33333   0.66667   0.25350   1.000      1    1    I 0.01000                                                
+    Mo1     Mo          0.33333   0.66667   0.74650   1.000      1    1    I 0.01000                                                
+     C2      C          0.00000   0.00000   0.00000   1.000      1    1    I 0.01000                                                
+
+ Unit cell: a = 2.88492 b = 2.88492 c = 5.48508 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 39.535 Refine? False
+
+ Phase: Mo2 - metal in histogram: PWDR M4.csv
+=======================================================================================================================================
+ Phase fraction  :     0.1405 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33         D12         D13         D23
+ values:           0           0           0           0           0           0
+ refine:       False       False       False       False       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Phase: Mo8 C4 - ortho in histogram: PWDR M4.csv
+=======================================================================================================================================
+ Phase fraction  :      1.221 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33         D12         D13         D23
+ values:           0           0           0           0           0           0
+ refine:       False       False       False       False       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Phase: Mo4 C4 - cubic in histogram: PWDR M4.csv
+=======================================================================================================================================
+ Phase fraction  :      1e-12 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33         D12         D13         D23
+ values:           0           0           0           0           0           0
+ refine:       False       False       False       False       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Phase: Mo2 C1 -hexag in histogram: PWDR M4.csv
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33         D12         D13         D23
+ values:           0           0           0           0           0           0
+ refine:       False       False       False       False       False       False
+ Layer Displacement:      0.000 Refine? False
+
+ Histogram: PWDR M4.csv histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     0.00 deg to    90.31 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        0.1365        0.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.500000    1.540510    1.544330    0.700000    0.002000    2.000000   -2.000000    5.000000
+ refine:                   False                               False       False       False       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    0.000000    0.000000    0.000000    0.132945
+ refine:       False       False       False        True
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:     23.411   -20.253     4.701
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 11 No. of observations: 9033 No. of parameters: 7 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    2.184s,    0.364s/cycle, for 6 cycles
+ wR =   58.16%, chi**2 =       413092, GOF =   6.77
+----------------------------------------------------------------------------------------------------------------------------------
+Parameters generated by constraints
+
+ name  :      ::constr0      ::constr1
+ value :       -0.51231       -0.73494
+ sig   :        0.01502        0.00549 
+
+ Phases:
+ Result for phase: Mo2 - metal
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Mo0     Mo:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+    Mo1     Mo:
+ values:   0.50000   0.50000   0.50000   1.000 0.01000
+ sig   :                                               
+
+ Density: 10.0249 g/cm**3
+ Result for phase: Mo8 C4 - ortho
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Mo0     Mo:
+ values:   0.24650   0.07946   0.12255   1.000 0.01000
+ sig   :                                               
+    Mo1     Mo:
+ values:   0.74650   0.92054   0.37745   1.000 0.01000
+ sig   :                                               
+    Mo2     Mo:
+ values:   0.25350   0.57946   0.37745   1.000 0.01000
+ sig   :                                               
+    Mo3     Mo:
+ values:   0.75350   0.42054   0.12255   1.000 0.01000
+ sig   :                                               
+    Mo4     Mo:
+ values:   0.24650   0.57946   0.87745   1.000 0.01000
+ sig   :                                               
+    Mo5     Mo:
+ values:   0.74650   0.42054   0.62255   1.000 0.01000
+ sig   :                                               
+    Mo6     Mo:
+ values:   0.25350   0.07946   0.62255   1.000 0.01000
+ sig   :                                               
+    Mo7     Mo:
+ values:   0.75350   0.92054   0.87745   1.000 0.01000
+ sig   :                                               
+     C8      C:
+ values:   0.50000   0.75000   0.12298   1.000 0.01000
+ sig   :                                               
+     C9      C:
+ values:   0.00000   0.25000   0.37702   1.000 0.01000
+ sig   :                                               
+    C10      C:
+ values:   0.50000   0.25000   0.87702   1.000 0.01000
+ sig   :                                               
+    C11      C:
+ values:   0.00000   0.75000   0.62298   1.000 0.01000
+ sig   :                                               
+
+ Density: 8.9440 g/cm**3
+ Result for phase: Mo4 C4 - cubic
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Mo0     Mo:
+ values:   0.50000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+    Mo1     Mo:
+ values:   0.50000   0.50000   0.50000   1.000 0.01000
+ sig   :                                               
+    Mo2     Mo:
+ values:   0.00000   0.00000   0.50000   1.000 0.01000
+ sig   :                                               
+    Mo3     Mo:
+ values:   0.00000   0.50000   0.00000   1.000 0.01000
+ sig   :                                               
+     C4      C:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+     C5      C:
+ values:   0.00000   0.50000   0.50000   1.000 0.01000
+ sig   :                                               
+     C6      C:
+ values:   0.50000   0.00000   0.50000   1.000 0.01000
+ sig   :                                               
+     C7      C:
+ values:   0.50000   0.50000   0.00000   1.000 0.01000
+ sig   :                                               
+
+ Density: 8.5150 g/cm**3
+ Result for phase: Mo2 C1 -hexag
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Mo0     Mo:
+ values:   0.33333   0.66667   0.25350   1.000 0.01000
+ sig   :                                               
+    Mo1     Mo:
+ values:   0.33333   0.66667   0.74650   1.000 0.01000
+ sig   :                                               
+     C2      C:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+
+ Density: 8.5638 g/cm**3
+
+ Phase: Mo2 - metal in histogram: PWDR M4.csv
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 80.48%, 97.13% on 46 reflections
+ Durbin-Watson statistic = 0.012
+ Bragg intensity sum = 2.36e-09
+ Phase fraction  :      1e-12, sig        nan Weight fraction  :  0.00000, sig        nan
+
+ Phase: Mo8 C4 - ortho in histogram: PWDR M4.csv
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 43.22%, 70.69% on 245 reflections
+ Durbin-Watson statistic = 0.012
+ Bragg intensity sum = 1.06e+04
+ Phase fraction  :     1.1142, sig   0.012267 Weight fraction  :  1.00000, sig    0.00583
+
+ Phase: Mo4 C4 - cubic in histogram: PWDR M4.csv
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 90.33%, 91.60% on 128 reflections
+ Durbin-Watson statistic = 0.012
+ Bragg intensity sum = 4.81e-09
+ Phase fraction  :      1e-12, sig   0.012267 Weight fraction  :  0.00000, sig    0.00583
+
+ Phase: Mo2 C1 -hexag in histogram: PWDR M4.csv
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 99.98%, 100.00% on 68 reflections
+ Durbin-Watson statistic = 0.012
+ Bragg intensity sum = 2.52e-09
+ Phase fraction  :      1e-12, sig          0 Weight fraction  :  0.00000, sig    0.00000
+
+ Histogram: PWDR M4.csv histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 58.16% on 9033 observations in this histogram
+ Other residuals: R = 37.50%, R-bkg = 50.03%, wR-bkg = 58.16% wRmin = 8.60%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:       Mo        C
+ f'     :   -0.049    0.018
+ f"     :    2.734    0.009
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:        0.1739        0.0000        0.0000        0.0000        0.0000
+ sig   :        0.0010                                                        
+
+ Instrument Parameters:
+ names :        Zero
+ value :    0.185474
+ sig   :    0.000972
+
+ Background function: chebyschev-1
+ value :       23.3    -20.26     4.821
+ sig   :     0.3665    0.5668    0.3609
+ Background sums: empirical 1.96e+05, Debye 0, peaks 0, Total 1.96e+05
