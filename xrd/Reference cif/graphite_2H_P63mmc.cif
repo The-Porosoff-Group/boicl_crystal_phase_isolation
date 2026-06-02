@@ -1,0 +1,65 @@
+# 2H Hexagonal Graphite — standard structure
+# Space group: P 6_3/m m c (No. 194)
+# This is the correct graphite polytype for turbostratic/disordered carbon
+# seen in carburization/pyrolysis experiments.
+# 002 reflection: d = 3.354 A → 2theta ~ 26.4° (Cu Ka, λ=1.5406 Å)
+#
+# Reference: Wyckoff, Crystal Structures Vol.1 (1963);
+#            JCPDS card 41-1487
+
+data_graphite_2H
+
+_symmetry_space_group_name_H-M   'P 6_3/m m c'
+_symmetry_Int_Tables_number       194
+
+_cell_length_a                    2.46400000
+_cell_length_b                    2.46400000
+_cell_length_c                    6.70800000
+_cell_angle_alpha                 90.00000000
+_cell_angle_beta                  90.00000000
+_cell_angle_gamma                120.00000000
+
+_chemical_formula_structural      C
+_chemical_formula_sum            'C4'
+_cell_volume                      35.29
+_cell_formula_units_Z             4
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1   'x, y, z'
+  2   '-y, x-y, z'
+  3   '-x+y, -x, z'
+  4   '-x, -y, z+1/2'
+  5   'y, -x+y, z+1/2'
+  6   'x-y, x, z+1/2'
+  7   'y, x, -z'
+  8   'x-y, -y, -z'
+  9   '-x, -x+y, -z'
+  10  '-y, -x, -z+1/2'
+  11  '-x+y, y, -z+1/2'
+  12  'x, x-y, -z+1/2'
+  13  '-x, -y, -z'
+  14  'y, -x+y, -z'
+  15  'x-y, x, -z'
+  16  'x, y, -z+1/2'
+  17  '-y, x-y, -z+1/2'
+  18  '-x+y, -x, -z+1/2'
+  19  '-y, -x, z'
+  20  '-x+y, y, z'
+  21  'x, x-y, z'
+  22  'y, x, z+1/2'
+  23  'x-y, -y, z+1/2'
+  24  '-x, -x+y, z+1/2'
+
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C1  2  b  0.00000000  0.00000000  0.25000000  1
+  C  C2  2  c  0.33333333  0.66666667  0.25000000  1
