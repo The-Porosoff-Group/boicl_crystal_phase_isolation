@@ -447,7 +447,8 @@ class AskTellFewShotTopk(AskTellFewShot):
         x can be either:
           - a plain string (original behaviour)
           - a dict with keys: 'procedure', 'Mo_wf', 'Mo_sigma',
-            'Mo2C_wf', 'Mo2C_sigma', 'MoC_wf', 'MoC_sigma'
+            'Mo2C_wf', 'Mo2C_sigma', 'MoC_wf', 'MoC_sigma',
+            'MoO2_wf', 'MoO2_sigma'
 
         y is always a scalar float — the MoC cubic weight fraction.
 
@@ -482,7 +483,9 @@ class AskTellFewShotTopk(AskTellFewShot):
                 f"Mo2C weight fraction: {x['Mo2C_wf']:.1f}%, "
                 f"sigma: {x['Mo2C_sigma']:.3f}%. "
                 f"Mo weight fraction: {x['Mo_wf']:.1f}%, "
-                f"sigma: {x['Mo_sigma']:.3f}%."
+                f"sigma: {x['Mo_sigma']:.3f}%. "
+                f"MoO2 weight fraction: {x['MoO2_wf']:.1f}%, "
+                f"sigma: {x['MoO2_sigma']:.3f}%."
             )
             inv_x = x['procedure']
         else:
@@ -1124,4 +1127,3 @@ class AskTellFewShotTopk(AskTellFewShot):
 #             [means[i] for i in selected],
 #             [std[i] for i in selected],
 #         )
-
