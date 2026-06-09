@@ -8,3 +8,4 @@
 .emb_cache/
 *.npy
 *.faiss
+.env
