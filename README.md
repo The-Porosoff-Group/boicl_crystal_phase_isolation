@@ -15,7 +15,7 @@ Two parallel acquisition strategies run as independent trajectories:
 | Trajectory | Acquisition | Strategy |
 |---|---|---|
 | **T1** | Expected Improvement (EI) | Balances exploration and exploitation |
-| **T2** | Greedy (mean) | Pure exploitation — takes the highest predicted yield |
+
 
 Each suggested procedure is physically synthesized and characterized by powder XRD with Rietveld refinement, and the result is fed back to the model for the next iteration.
 
@@ -23,9 +23,8 @@ Each suggested procedure is physically synthesized and characterized by powder X
 
 ## Key Results
 
-- Best observed cubic MoC weight fraction: **91.8%** (T1, point 1)
-- Both trajectories converge toward the 620 °C / 0.5 hr / N₂ region of the design space
-- EI trajectory discovers this region in fewer iterations than greedy
+- Best observed cubic MoC weight fraction: **96.5%** (T1)
+- Trajectory converges toward the 620 °C / 0.5 hr / N₂ region of the design space
 
 ---
 
@@ -51,7 +50,7 @@ Fixed conditions: 1 g ammonium heptamolybdate tetrahydrate, 120 °C drying (24 h
 ```
 boicl_crystal_phase_isolation/
 │
-├── cubic_WC_boicl.ipynb              # Main campaign notebook (T1 + T2)
+├── cubic_WC_boicl.ipynb              # Main campaign notebook (T1)
 ├── bo_icl_env.yml                    # Conda environment
 ├── .env                              # API keys (git-ignored)
 │
@@ -66,13 +65,12 @@ boicl_crystal_phase_isolation/
 │
 ├── dataset/
 │   ├── Metal_Sucrose_DesignSpace_fr_T1.xlsx   # T1 design space + labeled results
-│   ├── Metal_Sucrose_DesignSpace_fr_T2.xlsx   # T2 design space + labeled results
 │   └── synthetic_Mo-Carburization_Dataset_v2_labeled.xlsx  # 2,500-procedure synthetic benchmark
 │
 ├── campaigns/
 │   ├── Synthetic/                    # Offline and live synthetic benchmark results (CSV)
 │   ├── Trajectory_1_with_seeds_EI_acq/   # Raw XRD .dat files for T1 experiments
-│   └── Trajectory_2_no_seeds_greedy_acq/ # Raw XRD files for T2 experiments
+│   
 │
 ├── BOICL_docs/
 │   ├── pred_system_message.txt       # Forward model system prompt
@@ -111,7 +109,6 @@ A second GPT-4o call runs an inverse design: given a target MoC weight fraction,
 At each iteration, the model predicts MoC wf for every unlabeled candidate in the pool:
 
 - **EI (T1)**: selects the candidate maximizing expected improvement over the current best
-- **Greedy (T2)**: selects the candidate with the highest predicted mean
 
 The chosen procedure is sent to the lab, synthesized, characterized by XRD, and the result is fed back via `asktell.tell(procedure, moc_wf)`.
 
@@ -162,13 +159,6 @@ Open `cubic_WC_boicl.ipynb` in JupyterLab and run sections in order:
    - Update `completed_prompt_labels` in Cell 6 with new experimental results
    - Run through Cell 13 to get the next EI suggestion
    - Cell 16 renders the campaign summary table
-
-2. **Trajectory 2 (Greedy)** — Cells 17–29
-   - Update `completed_prompt_labels` in Cell 19 with new results
-   - Run through Cell 25 to get the next greedy suggestion
-   - Cell 28 renders the T2 summary table
-
-> **Note:** T1 and T2 share variable names (`df_shuffled`, `nonzero_indices`). Cell 28 reloads the T2 dataset independently, so run order does not matter.
 
 ---
 
