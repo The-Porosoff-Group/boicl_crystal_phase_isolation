@@ -9,3 +9,6 @@
 *.npy
 *.faiss
 .env
+
+.env
+.env.*
