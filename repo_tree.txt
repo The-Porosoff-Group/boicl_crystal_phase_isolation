@@ -1,0 +1,94 @@
+.
+├── .gitignore
+├── BOICL_docs
+│   ├── inv_system_message.txt
+│   ├── inv_system_message_syn_data.txt
+│   └── pred_system_message.txt
+├── IBMPlexMono-Regular.ttf
+├── LICENSE
+├── README.md
+├── archive
+│   ├── alpha_moc_bo_inverse_design.pdf
+│   ├── alpha_moc_bo_inverse_design.png
+│   ├── archive.png
+│   ├── best_best_xrd_summary.xlsx
+│   ├── best_human guided xrd.xlsx
+│   ├── boicl_trajectory.pdf
+│   ├── boicl_trajectory.png
+│   ├── campaigns_three_panel.pdf
+│   ├── campaigns_three_panel.png
+│   ├── campaigns_two_panel.pdf
+│   ├── campaigns_two_panel.png
+│   ├── chemistry_embeddings.ipynb
+│   ├── gp_bo_all_replicates.npy
+│   ├── gp_bo_trajectories.csv
+│   ├── live_moc_trajectory.png
+│   ├── matbert_eval_texts.json
+│   ├── out
+│   │   ├── mo_carb_gpt-4o_2_1_1_review1_comment2_v1.pkl
+│   │   └── mo_carb_gpt-4o_bert_1_1_1_v1.pkl
+│   ├── rietveld_M26.png
+│   ├── rietveld_M7.png
+│   ├── rietveld_best_T1.pdf
+│   ├── rietveld_best_T1.png
+│   ├── rietveld_best_eva.pdf
+│   ├── rietveld_best_eva.png
+│   ├── xrd_best_T1.xlsx
+│   └── xrd_summary1.xlsx
+├── archive.png
+├── bo_icl_env.yml
+├── boicl
+│   ├── __init__.py
+│   ├── aqfxns.py
+│   ├── asktell.py
+│   ├── asktellFinetuning.py
+│   ├── asktellGPR.py
+│   ├── asktellNearestNeighbor.py
+│   ├── asktellRidgeRegression.py
+│   ├── call_design_space.py
+│   ├── design_space.py
+│   ├── llm_model.py
+│   ├── pool.py
+│   ├── tool.py
+│   └── version.py
+├── campaigns
+│   ├── Synthetic
+│   │   ├── boicl_mo2c_alpha_live_20260520_v3_mo_carburization_dataset_v2_unlabeled_20260520_155838_observations.csv
+│   │   ├── boicl_mo2c_alpha_offline_20260518_mo_carburization_dataset_v2_labeled_20260520_122909_observations.csv
+│   │   └── synthetic_data.png
+│   └── Trajectory_1_with_seeds_EI_acq
+│       ├── M12-Mo2C-1:1_15C_min_600C_2hr_30sccm_H2.csv
+│       ├── M14-Mo2C-1:1_15C_min_900C_.5hr_30sccm_H2.csv
+│       ├── M16-Mo2C-1:1_10C_min_620C_10hr_60sccm_N2.dat
+│       ├── M17-Mo2C-1:1_15C_min_620C_.5hr_30sccm_H2.dat
+│       ├── M21-Mo2C-1:1_10C_min_620C_.5hr_60sccm_N2.dat
+│       ├── M23-Mo2C-1:1_10C_min_630C_2hr_60sccm_H2.dat
+│       ├── M24-Mo2C-1:2_10C_min_690C_.5hr_30sccm_N2.dat
+│       └── M7-Mo2C-1:1_15C_min_800C_.5hr_60sccm_N2.csv
+├── cubic_WC_boicl.ipynb
+├── dataset
+│   ├── Metal_Sucrose_DesignSpace_fr_T1.xlsx
+│   └── synthetic_Mo-Carburization_Dataset_v2_labeled.xlsx
+├── mo2c_sucrose_emb.npy
+├── mo2c_sucrose_index.faiss
+├── mo2c_sucrose_prompts.pkl
+├── repo_tree.txt
+├── tracked_files.txt
+└── xrd
+    ├── Reference cif
+    │   ├── Mo2C_Pbcn_fixed.cif
+    │   ├── MoC_0.66.cif
+    │   ├── MoC_0.68.cif
+    │   ├── MoC_0.70.cif
+    │   ├── MoC_0.72.cif
+    │   ├── MoC_0.74.cif
+    │   ├── MoC_0.75.cif
+    │   ├── MoC_cubic_fixed.cif
+    │   ├── MoO2_P21c_fixed.cif
+    │   ├── Mo_Im3m_fixed.cif
+    │   ├── W_Im-3m_mp-91.cif
+    │   ├── W_Pm-3n_mp-11334.cif
+    │   └── graphite_2H_P63mmc.cif
+    └── smartlab_Si640g.instprm.bak
+
+11 directories, 81 files
