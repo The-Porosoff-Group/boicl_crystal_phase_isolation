@@ -1,14 +1,16 @@
+# macOS
+.DS_Store
 
-# generated embedding/cache artifacts
-.emb_cache/
-*.npy
-*.faiss
-
-# generated embedding/cache artifacts
-.emb_cache/
-*.npy
-*.faiss
-.env
-
+# secrets
 .env
 .env.*
+
+# generated embedding / pool caches
+.emb_cache/
+*.npy
+*.faiss
+*.pkl
+gpr_embeddings_cache.csv
+
+# downloaded at runtime by the plotting cell
+IBMPlexMono-Regular.ttf
