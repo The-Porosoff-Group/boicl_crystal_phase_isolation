@@ -14,3 +14,6 @@ gpr_embeddings_cache.csv
 
 # downloaded at runtime by the plotting cell
 IBMPlexMono-Regular.ttf
+
+# GPR embedding cache (regenerable, >100MB)
+gpr_embeddings_cache.csv
